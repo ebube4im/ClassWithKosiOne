@@ -208,6 +208,96 @@
 
 
 
+            // LOOPS
+
+            // while
+            // do while
+            // for loop
+            // for each
+
+
+
+            bool status = false;
+            int timer = 0;
+
+
+            do
+            {
+                status = false;
+                timer = 5;
+
+                Console.WriteLine(timer.ToString() + " from DO ");
+                Console.WriteLine("Step One running");
+                Console.WriteLine("Step Twp running");
+                Console.WriteLine("Step Three running");
+
+                timer++;
+
+                if (timer == 5)
+                {
+                    status = false;
+                }
+            }
+            while (status);
+
+            while (status)
+            {
+                Console.WriteLine("While code running");
+                timer = 5;
+                status = false;
+                Console.WriteLine(timer.ToString() + " from while");
+                Console.WriteLine("Step One running");
+                Console.WriteLine("Step Twp running");
+                Console.WriteLine("Step Three running");
+
+                timer++;
+
+                if (timer == 5)
+                {
+                    status = false;
+                }
+            }
+
+
+
+
+            // for
+
+            for (int count = 0; count <= 50; count++)
+            {
+                Console.WriteLine(count);
+            }
+
+            // COllectioin or List...
+
+            string[] names = { "ebube", "buka", "glory" };
+
+            for (int counter = 0; counter < names.Length; counter++)
+            {
+                Console.WriteLine("You are " + names[counter]);
+            }
+
+            foreach (string item in names)
+            {
+                Console.WriteLine("You are welcome " + item);
+            }
+
+
+
+
+            /// I want you to write a loop that can 
+            /// print all even numbers from 1 to 10
+
+
+
+
+
+
+
+            // step 1
+            // step 2
+            // step 3
+
 
 
 
